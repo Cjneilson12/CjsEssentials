@@ -4,10 +4,10 @@ game 'gta5'
 shared_script 'config.lua'
 
 server_scripts {
-  'server.lua',
-  'versioncheck.lua',
+  'server/server.lua',
+  'server/versioncheck.lua',
 }
 
 client_scripts {
-  'client.lua',
+  'client/client.lua',
 }
