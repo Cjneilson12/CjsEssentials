@@ -5,6 +5,7 @@ shared_script 'config.lua'
 
 server_scripts {
   'server.lua',
+  'versioncheck.lua',
 }
 
 client_scripts {
